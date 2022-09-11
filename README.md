@@ -1,6 +1,6 @@
-# latihan_container
+# KEEP LEARN AND NEVER LET YOUR DOUBT DOMINATE YOU!!!
 
-A new Flutter project.
+This Repository is used to record my progress on learning Flutter for Mobile App Development
 
 ## Getting Started
 
