@@ -1,8 +1,5 @@
 // ignore_for_file: prefer_const_constructors, camel_case_types, deprecated_member_use, file_names
-
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class stateful extends StatefulWidget {
   const stateful({Key? key}) : super(key: key);
@@ -25,7 +22,7 @@ class _statefulState extends State<stateful> {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text('Stateful Widget Demo'),
+          title: Text('Counter Widget Demo'),
         ),
         body: Center(
           child: Column(

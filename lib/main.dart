@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'latihan_container.dart';
 import 'selfApp.dart';
 import 'statefulWidget.dart';
+import 'anonymousMethod.dart';
 
 void main() {
-  runApp(stateful());
+  runApp(anonymousMethod());
 }
