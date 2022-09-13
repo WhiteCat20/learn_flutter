@@ -36,12 +36,6 @@ class _statefulState extends State<stateful> {
               SizedBox(
                 height: 30,
               ),
-              RaisedButton(
-                onPressed: tekanTombol,
-                color: Colors.blue[400],
-                child: Text('Tambah Bilangan',
-                    style: TextStyle(color: Colors.white, fontSize: 20)),
-              )
             ],
           ),
         ),

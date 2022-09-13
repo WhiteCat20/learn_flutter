@@ -28,18 +28,6 @@ class _anonymousMethodState extends State<anonymousMethod> {
                 message,
                 style: TextStyle(fontSize: 20),
               ),
-              RaisedButton(
-                color: Colors.blue[400],
-                onPressed: () {
-                  setState(() {
-                    message = 'Tombol telah ditekan';
-                  });
-                },
-                child: Text(
-                  'Tekan saya',
-                  style: TextStyle(color: Colors.white, fontSize: 20),
-                ),
-              )
             ],
           ),
         ),
