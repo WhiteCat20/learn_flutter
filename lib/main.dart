@@ -4,7 +4,8 @@ import 'latihan_container.dart';
 import 'selfApp.dart';
 import 'statefulWidget.dart';
 import 'anonymousMethod.dart';
+import 'text_style.dart';
 
 void main() {
-  runApp(anonymousMethod());
+  runApp(textStyle());
 }
