@@ -36,6 +36,7 @@ class _statefulState extends State<stateful> {
               SizedBox(
                 height: 30,
               ),
+              ElevatedButton(onPressed: tekanTombol, child: Text('Push me!'))
             ],
           ),
         ),

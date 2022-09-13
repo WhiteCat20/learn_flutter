@@ -7,5 +7,5 @@ import 'anonymousMethod.dart';
 import 'text_style.dart';
 
 void main() {
-  runApp(textStyle());
+  runApp(anonymousMethod());
 }

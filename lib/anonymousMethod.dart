@@ -28,9 +28,26 @@ class _anonymousMethodState extends State<anonymousMethod> {
                 message,
                 style: TextStyle(fontSize: 20),
               ),
+              SizedBox(height: 50),
+              ElevatedButton(onPressed: (){
+                setState(() {
+                  message = 'Entah wes mboh';
+                });
+              }, style: ElevatedButton.styleFrom(
+                primary: Colors.purple[400]
+              ), child: Text('Just Press me ok!'),),
+              ElevatedButton(onPressed: (){
+                setState(() {
+                  message = 'Yo gak tau kok tanya saya';
+                });
+              },
+              style: ElevatedButton.styleFrom(
+                primary: Colors.red[700]
+              ), child: Text('Why dont press me?'),)
             ],
           ),
         ),
+
       ),
     );
   }
