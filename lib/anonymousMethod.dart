@@ -22,8 +22,7 @@ class _anonymousMethodState extends State<anonymousMethod> {
         ),
         body: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
+            mainAxisAlignment: MainAxisAlignment.center,            children: <Widget>[
               Text(
                 message,
                 style: TextStyle(fontSize: 20),
